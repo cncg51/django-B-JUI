@@ -1,0 +1,13 @@
+
+B-jui 的django版本...
+
+1. mysql 创建一个数据库: 
+   mysql> create database BuiDb;
+
+2. pip install -r requirement.txt
+
+3. python manage.py runserver
+
+...
+
+
