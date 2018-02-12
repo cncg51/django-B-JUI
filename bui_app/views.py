@@ -10,11 +10,15 @@ from django.shortcuts import render
 
 log_info1 = logging.getLogger("bui_log1")
 
+
 def index(request):
-    print "request index .."
-    return render(request,"index.html", locals())
+    print("request index ..")
+    return render(request, "index.html", locals())
+
+
 def index_layout(request):
     return render(request, "index_layout.html", locals())
+
 
 def index_tree(request):
     return render(request, "index_tree.html", locals())

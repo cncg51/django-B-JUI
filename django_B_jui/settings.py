@@ -38,7 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'bui_app',
+    'bui_app.apps.BuiAppConfig',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -83,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'BuiDb',
         'USER': 'root',
-        'PASSWORD': 'admin',
+        'PASSWORD': 'mysqlroot',
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
@@ -94,7 +94,7 @@ DATABASES = {
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
 #LANGUAGE_CODE = 'en-us'
-LANGUAGE_CODE = 'zh-CN'
+LANGUAGE_CODE = 'zh-hans'
 
 TIME_ZONE = 'UTC'
 
